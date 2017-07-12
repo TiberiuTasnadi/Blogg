@@ -1,6 +1,9 @@
-h1 a {
-    color: #FCA205;
+.contingutt{
+	padding-left: 40px;
+	padding-right: 40px;
 }
-body {
-    padding-left: 15px;
+.contingutt h1{
+	padding-bottom: 10px;
+	text-align: center;
+
 }
