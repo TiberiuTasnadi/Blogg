@@ -1,0 +1,51 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+{% load staticfiles %}
+<div class="container" style="margin-top:40px; font-size:20px">
+  <div class="col-sm-8">
+  <p> Em presento, em dic Tiberiu Tasnadi.<br>
+  Actualment estic vivint a La Granadella, un poble al cantor de Lleida.<br>
+  <h3>Addicions:</h3>
+    <ul>
+      <li>Cafè</li>
+      <li>Mostaza</li>
+      <li>Plàtans</li>
+    </ul>
+  <h3>Aficions:</h3>
+    <ul>
+      <li>Música</li>
+      <li>Videojocs</li>
+      <li>Series</li>
+    </ul>
+  <h3>Odio:</h3>
+    <ul>
+      <li>Conformisme de la gent</li>
+      <li>Codi mal tabulat</li>
+      <li>Dormir poc</li>
+    </ul>
+  <h3>Estudis:</h3>
+    <ul>
+      <li>ESO</li>
+      <li>Grau Mig - Sistemes microinformàtics i xarxes</li>
+      <li>Grau Superior - Programació d'aplicacions multiplataforma</li>
+    </ul>
+  <h3>Extra:</h3>
+    <ul>
+      <li>Kooala (ex-Cooperativa)</li>
+      <li>2 INOVA FP</li>
+      <li>1 HackEPS</li>
+    </ul>
+  <h3>Practiques:</h3>
+    <ul>
+      <li>Ireparo - Tecnic</li>
+      <li>Invelon - Programador</li>
+    </ul>
+  <h3>Actualitat:</h3>
+    Actualment, estic acabant d'estudiar i participant en un projecte per una empresa. </p>
+  </div>
+  <div class="col-sm-4">
+    <img src="{% static 'img/1.PNG'%}" class="img-circle pull-right" style="margin-bottom:80px;height:250px; width:250px">
+    <img src="{% static 'img/2.PNG'%}" class="img-circle pull-right" style="height:250px; width:250px">
+  </div>
+</div>
+{% endblock %}

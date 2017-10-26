@@ -21,10 +21,15 @@
 	    <header id="top" class="header">
 	        <div class="text-vertical-center">
 	            <h1>Tiberiu Tasnadi</h1>
-	            <h3>Blogg</h3>
+	            <h3>Programador Junior</h3>
 	            <br>
+								<a href="http://tiberiutasnadi.pythonanywhere.com/" class="btn btn-dark btn-lg">Inici</a>
+								<a href="sobre/" class="btn btn-dark btn-lg">Sobre Jo</a>
+								<a href="contact/" class="btn btn-dark btn-lg">Contacta</a>
+
+								<a href="https://www.youtube.com/watch?v=eY52Zsg-KVI&pbjreload=10"target="_blank" class="btn btn-dark btn-lg">Mal Dia?</a>
 	            {% if user.is_authenticated %}
-	            	<a href="http://tiberiutasnadi.pythonanywhere.com/post/new/" class="btn btn-dark btn-lg">New Post</a>
+	            	<a href="http://tiberiutasnadi.pythonanywhere.com/post/new/" class="btn btn-dark btn-lg">Nou Post</a>
 	            {% endif %}
 	        </div>
 	    </header>
@@ -34,5 +39,13 @@
 	        {% block content %}
 	        {% endblock %}
 	    </section>
+			<div class="container">
+				<div class="text-center row align-items-end col-12">
+					<h3>Xarxes Socials:</h3>
+					<a href="https://www.instagram.com/tibortasnadi/?hl=es"target="_blank"><img class="img-circle float-center" style="	height: 70px;width: 70px; margin:30px;" src="{% static 'img/instagram.png'%}"/></a>
+					<a href="https://stackoverflow.com/users/8631741/tiberiu-tasnadi"target="_blank"><img class="img-circle float-right" style="	height: 70px;width: 70px; margin:30px;" src="{% static 'img/stack.png'%}"/></a>
+					<a href="https://github.com/TiberiuTasnadi"target="_blank"><img class="img-circle float-left" style="height: 70px;width: 70px; margin:30px;" src="{% static 'img/git_hub.png'%}"/></a>
+				</div>
+		</div>
 	</body>
 </html>
